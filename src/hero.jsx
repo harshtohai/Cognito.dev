@@ -16,9 +16,9 @@ export default function Hero() {
           <p>A Dev Surfing Through Tech.</p>
           <div id='icons'>
             <div>
-              <a href='https://github.com/harshtohai' target='_blank' a><img src='./public/static/GitHub.svg' /></a>
-              <a href='mailto:harsh.panchal.me@gmail.com'><img src='./public/static/Mail.svg' /></a>
-              <a href='https://discord.com/users/1061913444586098778'><img src='./public/static/Discord.svg' /></a>
+              <a href='https://github.com/harshtohai' target='_blank' a><img src='/static/images/GitHub.svg' /></a>
+              <a href='mailto:harsh.panchal.me@gmail.com'><img src='/static/images/Mail.svg' /></a>
+              <a href='https://discord.com/users/1061913444586098778'><img src='/static/images/Discord.svg' /></a>
             </div>
           </div>
         </div>
