@@ -9,14 +9,12 @@ export default function NavBar() {
   const [linePosition, setLinePosition] = useState('1px 60.2%');
   const [highLight, setHighLight] = useState(1);
 
-  const navMagic = (margin, index, scrollto) => {
+  const navMagic = (scrollto) => {
     let scroll = {
       top: scrollto,
       left: 0,
       behavior: 'smooth',
     }
-    setLinePosition(margin)
-    setHighLight(index)
     window.scroll(scroll)
   }
 
@@ -54,8 +52,8 @@ export default function NavBar() {
       <div id='MainNavDiv'>
         <div className='div'>
           <ul id='ul'>
-            <Link text={"Home"} index={1} margin={'1px 60.4%'} scrollto={0} />
-            <Link text={"Work"} index={2} margin={'1px 10%'} scrollto={650} />
+            <Link text={"Home"} scrollto={0} />
+            <Link text={"Work"} scrollto={650} />
           </ul>
           <div id='navlinebox'>
             <div style={{ margin: linePosition }} className='navline'></div>
