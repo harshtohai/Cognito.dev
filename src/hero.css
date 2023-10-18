@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap');
+
+#heroMainDiv{
+  color:white;
+  height:90vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:transparent;
+  z-index:1;
+}
+   
+#heroMainDiv h2{
+  font-family: 'Aguafina Script', cursive;
+  color: #04F;
+  font-size: 60px;
+  font-style: normal;
+  margin-bottom:-35px;
+  font-weight: 400;
+  background:transparent;
+  line-height: normal;
+}
+
+#heroMainDiv div{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  background:transparent;
+}
+p,h1{
+  font-family: 'Smooch Sans', sans-serif;
+  font-weight:400;
+  background:transparent;
+}
+#heroText{
+  font-size:100px;
+  margin-bottom:-23px;
+}
+#heroMainDiv p{
+  color: #FFF;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+#icons{
+  display:flex;
+  justify-content:center;
+  margin-top:20px;
+  align-items:center;
+}
+#icons div{
+  display:flex;
+  justify-content:space-between;
+  flex-direction:row;
+  width:120px;
+
+}
+#icons img{
+  background:transparent;
+  width:30px;
+  height:25px;
+  transition: all .3s ease-in-out;
+  cursor:pointer;
+}
+
+#icons img:nth-child(1){
+  height:27px;
+}
+#icons img:hover{
+  transform: scale(1.1);
+}
+
+#backgrounds{
+  background-color: #030303;
+  z-index:0;
+}
