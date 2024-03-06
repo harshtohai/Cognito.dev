@@ -24,7 +24,7 @@ export default function Hero() {
         </div>
       </div>
       <div id='backgrounds'>
-        <svg width="1920" height="100vh" viewBox="0 0 1920 693" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="100%" height="100vh" viewBox="0 0 1920 693" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g filter="url(#filter0_f_109_63)">
             <path d="M933.251 986C1463.33 986 2111 723.639 2111 400L-235 400C-235 723.639 403.171 986 933.251 986Z" fill="url(#paint0_linear_109_63)" fill-opacity="0.5" />
           </g>
